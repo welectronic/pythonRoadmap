@@ -1,0 +1,1111 @@
+[
+    {
+        "id": 1,
+        "status": "active",
+        "title": "Camiseta Ecológica",
+        "body_html": "<strong>Confortable y ecológica</strong>",
+        "vendor": "EcoModa",
+        "product_type": "Ropa",
+        "created_at": "2023-10-01T14:15:22-05:00",
+        "handle": "camiseta-ecologica",
+        "updated_at": "2023-10-10T14:15:22-05:00",
+        "published_at": "2023-10-02T14:15:22-05:00",
+        "template_suffix": "",
+        "published_scope": "global",
+        "tags": "Ecológica, Ropa, Confortable",
+        "variants": [
+            {
+                "id": 1001,
+                "product_id": 1,
+                "title": "Verde / S",
+                "price": [
+                    {
+                        "amount": "25.00",
+                        "currency_code": "USD"
+                    },
+                    {
+                        "amount": "100000.00",
+                        "currency_code": "COP"
+                    }
+                ],
+                "sku": "ECO-GREEN-S",
+                "position": 1,
+                "inventory_policy": "deny",
+                "compare_at_price": "30.00",
+                "fulfillment_service": "manual",
+                "inventory_management": "shopify",
+                "option": {
+                    "option1": "Verde",
+                    "option2": "S",
+                    "option3": "null"
+                },
+                "created_at": "2023-10-01T14:15:22-05:00",
+                "updated_at": "2023-10-10T14:15:22-05:00",
+                "taxable": true,
+                "barcode": "1234567890123",
+                "grams": 200,
+                "image_id": 10,
+                "weight": 0.2,
+                "weight_unit": "kg",
+                "inventory_item_id": 10001,
+                "inventory_quantity": 40,
+                "old_inventory_quantity": 40,
+                "requires_shipping": true
+            },
+            {
+                "id": 1002,
+                "product_id": 1,
+                "title": "Verde / M",
+                "price": [
+                    {
+                        "amount": "25.00",
+                        "currency_code": "USD"
+                    },
+                    {
+                        "amount": "100000.00",
+                        "currency_code": "COP"
+                    }
+                ],
+                "sku": "ECO-GREEN-M",
+                "position": 2,
+                "inventory_policy": "deny",
+                "compare_at_price": "30.00",
+                "fulfillment_service": "manual",
+                "inventory_management": "shopify",
+                "option": {
+                    "option1": "Verde",
+                    "option2": "M",
+                    "option3": "null"
+                },
+                "created_at": "2023-10-01T14:15:22-05:00",
+                "updated_at": "2023-10-10T14:15:22-05:00",
+                "taxable": true,
+                "barcode": "1234567890456",
+                "grams": 200,
+                "image_id": 10,
+                "weight": 0.2,
+                "weight_unit": "kg",
+                "inventory_item_id": 10002,
+                "inventory_quantity": 35,
+                "old_inventory_quantity": 35,
+                "requires_shipping": true
+            }
+        ],
+        "options": [
+            {
+                "id": 1,
+                "product_id": 1,
+                "name": "Color",
+                "position": 1,
+                "values": [
+                    "Verde",
+                    "Azul"
+                ]
+            },
+            {
+                "id": 2,
+                "product_id": 1,
+                "name": "Tamaño",
+                "position": 2,
+                "values": [
+                    "S",
+                    "M",
+                    "L"
+                ]
+            }
+        ],
+        "images": [
+            {
+                "id": 1,
+                "product_id": 1,
+                "position": 1,
+                "created_at": "2023-10-01T14:15:22-05:00",
+                "updated_at": "2023-10-10T14:15:22-05:00",
+                "alt": "Camiseta Ecológica - Verde",
+                "width": 512,
+                "height": 512,
+                "src": "http://ejemplo.com/imagenes/producto1/verde.jpg",
+                "variant_ids": [
+                    1001,
+                    1002
+                ]
+            }
+        ]
+    },
+    {
+        "id": 2,
+        "status": "active",
+        "title": "Jeans Reciclados",
+        "body_html": "<strong>Moda sostenible y duradera</strong>",
+        "vendor": "EcoModa",
+        "product_type": "Ropa",
+        "created_at": "2023-10-03T14:15:22-05:00",
+        "handle": "jeans-reciclados",
+        "updated_at": "2023-10-11T14:15:22-05:00",
+        "published_at": "2023-10-04T14:15:22-05:00",
+        "template_suffix": "",
+        "published_scope": "global",
+        "tags": "Reciclado, Ropa, Durable",
+        "variants": [
+            {
+                "id": 2001,
+                "product_id": 2,
+                "title": "Azul / 32",
+                "price": [
+                    {
+                        "amount": "75.00",
+                        "currency_code": "USD"
+                    },
+                    {
+                        "amount": "300000.00",
+                        "currency_code": "COP"
+                    }
+                ],
+                "sku": "ECO-BLUE-32",
+                "position": 1,
+                "inventory_policy": "deny",
+                "compare_at_price": "",
+                "fulfillment_service": "manual",
+                "inventory_management": "shopify",
+                "option": {
+                    "option1": "Azul",
+                    "option2": "32",
+                    "option3": "null"
+                },
+                "created_at": "2023-10-03T14:15:22-05:00",
+                "updated_at": "2023-10-11T14:15:22-05:00",
+                "taxable": true,
+                "barcode": "1234567890789",
+                "grams": 750,
+                "image_id": 10,
+                "weight": 0.75,
+                "weight_unit": "kg",
+                "inventory_item_id": 20001,
+                "inventory_quantity": 15,
+                "old_inventory_quantity": 15,
+                "requires_shipping": true
+            },
+            {
+                "id": 2002,
+                "product_id": 2,
+                "title": "Azul / 34",
+                "price": [
+                    {
+                        "amount": "75.00",
+                        "currency_code": "USD"
+                    },
+                    {
+                        "amount": "300000.00",
+                        "currency_code": "COP"
+                    }
+                ],
+                "sku": "ECO-BLUE-34",
+                "position": 2,
+                "inventory_policy": "deny",
+                "compare_at_price": "",
+                "fulfillment_service": "manual",
+                "inventory_management": "shopify",
+                "option": {
+                    "option1": "Azul",
+                    "option2": "34",
+                    "option3": "null"
+                },
+                "created_at": "2023-10-03T14:15:22-05:00",
+                "updated_at": "2023-10-11T14:15:22-05:00",
+                "taxable": true,
+                "barcode": "1234567890918",
+                "grams": 750,
+                "image_id": 10,
+                "weight": 0.75,
+                "weight_unit": "kg",
+                "inventory_item_id": 20002,
+                "inventory_quantity": 17,
+                "old_inventory_quantity": 17,
+                "requires_shipping": true
+            }
+        ],
+        "options": [
+            {
+                "id": 3,
+                "product_id": 2,
+                "name": "Color",
+                "position": 1,
+                "values": [
+                    "Azul",
+                    "Negro"
+                ]
+            },
+            {
+                "id": 4,
+                "product_id": 2,
+                "name": "Tamaño",
+                "position": 2,
+                "values": [
+                    "32",
+                    "34",
+                    "36"
+                ]
+            }
+        ],
+        "images": [
+            {
+                "id": 2,
+                "product_id": 2,
+                "position": 1,
+                "created_at": "2023-10-03T14:15:22-05:00",
+                "updated_at": "2023-10-11T14:15:22-05:00",
+                "alt": "Jeans Reciclados - Azul",
+                "width": 512,
+                "height": 512,
+                "src": "http://ejemplo.com/imagenes/producto2/azul.jpg",
+                "variant_ids": [
+                    2001,
+                    2002
+                ]
+            }
+        ]
+    },
+    {
+        "id": 3,
+        "status": "active",
+        "title": "Botella de Agua Reutilizable",
+        "body_html": "<strong>¡Mantente hidratado y protege el medio ambiente!</strong>",
+        "vendor": "EcoAmigable",
+        "product_type": "Accesorios",
+        "created_at": "2023-10-05T14:15:22-05:00",
+        "handle": "botella-agua-reutilizable",
+        "updated_at": "2023-10-12T14:15:22-05:00",
+        "published_at": "2023-10-06T14:15:22-05:00",
+        "template_suffix": "",
+        "published_scope": "global",
+        "tags": "Ecológica, Reutilizable, Botella",
+        "variants": [
+            {
+                "id": 3001,
+                "product_id": 3,
+                "title": "1 Litro / Azul",
+                "price": [
+                    {
+                        "amount": "15.00",
+                        "currency_code": "USD"
+                    },
+                    {
+                        "amount": "60000.00",
+                        "currency_code": "COP"
+                    }
+                ],
+                "sku": "ECO-WATER-BLUE",
+                "position": 1,
+                "inventory_policy": "deny",
+                "compare_at_price": "",
+                "fulfillment_service": "manual",
+                "inventory_management": "shopify",
+                "option": {
+                    "option1": "1 Litro",
+                    "option2": "Azul",
+                    "option3": "null"
+                },
+                "created_at": "2023-10-05T14:15:22-05:00",
+                "updated_at": "2023-10-12T14:15:22-05:00",
+                "taxable": true,
+                "barcode": "1234567890321",
+                "grams": 200,
+                "image_id": 10,
+                "weight": 0.2,
+                "weight_unit": "kg",
+                "inventory_item_id": 30001,
+                "inventory_quantity": 50,
+                "old_inventory_quantity": 50,
+                "requires_shipping": true
+            },
+            {
+                "id": 3002,
+                "product_id": 3,
+                "title": "1 Litro / Rojo",
+                "price": [
+                    {
+                        "amount": "15.00",
+                        "currency_code": "USD"
+                    },
+                    {
+                        "amount": "60000.00",
+                        "currency_code": "COP"
+                    }
+                ],
+                "sku": "ECO-WATER-RED",
+                "position": 2,
+                "inventory_policy": "deny",
+                "compare_at_price": "",
+                "fulfillment_service": "manual",
+                "inventory_management": "shopify",
+                "option": {
+                    "option1": "1 Litro",
+                    "option2": "Rojo",
+                    "option3": "null"
+                },
+                "created_at": "2023-10-05T14:15:22-05:00",
+                "updated_at": "2023-10-12T14:15:22-05:00",
+                "taxable": true,
+                "barcode": "1234567890322",
+                "grams": 200,
+                "image_id": 10,
+                "weight": 0.2,
+                "weight_unit": "kg",
+                "inventory_item_id": 30002,
+                "inventory_quantity": 45,
+                "old_inventory_quantity": 45,
+                "requires_shipping": true
+            }
+        ],
+        "options": [
+            {
+                "id": 5,
+                "product_id": 3,
+                "name": "Capacidad",
+                "position": 1,
+                "values": [
+                    "1 Litro",
+                    "750 ml"
+                ]
+            },
+            {
+                "id": 6,
+                "product_id": 3,
+                "name": "Color",
+                "position": 2,
+                "values": [
+                    "Azul",
+                    "Rojo",
+                    "Verde"
+                ]
+            }
+        ],
+        "images": [
+            {
+                "id": 3,
+                "product_id": 3,
+                "position": 1,
+                "created_at": "2023-10-05T14:15:22-05:00",
+                "updated_at": "2023-10-12T14:15:22-05:00",
+                "alt": "Botella de Agua Reutilizable - Azul",
+                "width": 512,
+                "height": 512,
+                "src": "http://ejemplo.com/imagenes/producto3/azul.jpg",
+                "variant_ids": [
+                    3001
+                ]
+            },
+            {
+                "id": 4,
+                "product_id": 3,
+                "position": 2,
+                "created_at": "2023-10-05T14:15:22-05:00",
+                "updated_at": "2023-10-12T14:15:22-05:00",
+                "alt": "Botella de Agua Reutilizable - Rojo",
+                "width": 512,
+                "height": 512,
+                "src": "http://ejemplo.com/imagenes/producto3/rojo.jpg",
+                "variant_ids": [
+                    3002
+                ]
+            }
+        ]
+    },
+    {
+        "id": 4,
+        "status": "active",
+        "title": "Mochila Ecológica",
+        "body_html": "<strong>¡Perfecta para viajeros con conciencia ecológica!</strong>",
+        "vendor": "EcoAmigable",
+        "product_type": "Accesorios",
+        "created_at": "2023-10-07T14:15:22-05:00",
+        "handle": "mochila-ecologica",
+        "updated_at": "2023-10-14T14:15:22-05:00",
+        "published_at": "2023-10-08T14:15:22-05:00",
+        "template_suffix": "",
+        "published_scope": "global",
+        "tags": "Ecológica, Mochila, Viaje",
+        "variants": [
+            {
+                "id": 4001,
+                "product_id": 4,
+                "title": "25 Litros / Negro",
+                "price": [
+                    {
+                        "amount": "70.00",
+                        "currency_code": "USD"
+                    },
+                    {
+                        "amount": "280.000",
+                        "currency_code": "COP"
+                    }
+                ],
+                "sku": "ECO-BAG-BLACK",
+                "position": 1,
+                "inventory_policy": "deny",
+                "compare_at_price": "",
+                "fulfillment_service": "manual",
+                "inventory_management": "shopify",
+                "option": {
+                    "option1": "25 Litros",
+                    "option2": "Negro",
+                    "option3": "null"
+                },
+                "created_at": "2023-10-07T14:15:22-05:00",
+                "updated_at": "2023-10-14T14:15:22-05:00",
+                "taxable": true,
+                "barcode": "1234567890456",
+                "grams": 800,
+                "image_id": 10,
+                "weight": 0.8,
+                "weight_unit": "kg",
+                "inventory_item_id": 40001,
+                "inventory_quantity": 20,
+                "old_inventory_quantity": 20,
+                "requires_shipping": true
+            },
+            {
+                "id": 4002,
+                "product_id": 4,
+                "title": "25 Litros / Azul",
+                "price": [
+                    {
+                        "amount": "70.00",
+                        "currency_code": "USD"
+                    },
+                    {
+                        "amount": "280.000",
+                        "currency_code": "COP"
+                    }
+                ],
+                "sku": "ECO-BAG-BLUE",
+                "position": 2,
+                "inventory_policy": "deny",
+                "compare_at_price": "",
+                "fulfillment_service": "manual",
+                "inventory_management": "shopify",
+                "option": {
+                    "option1": "25 Litros",
+                    "option2": "Azul",
+                    "option3": "null"
+                },
+                "created_at": "2023-10-07T14:15:22-05:00",
+                "updated_at": "2023-10-14T14:15:22-05:00",
+                "taxable": true,
+                "barcode": "1234567890457",
+                "grams": 800,
+                "image_id": 10,
+                "weight": 0.8,
+                "weight_unit": "kg",
+                "inventory_item_id": 40002,
+                "inventory_quantity": 25,
+                "old_inventory_quantity": 25,
+                "requires_shipping": true
+            }
+        ],
+        "options": [
+            {
+                "id": 7,
+                "product_id": 4,
+                "name": "Capacidad",
+                "position": 1,
+                "values": [
+                    "25 Litros",
+                    "30 Litros"
+                ]
+            },
+            {
+                "id": 8,
+                "product_id": 4,
+                "name": "Color",
+                "position": 2,
+                "values": [
+                    "Negro",
+                    "Azul",
+                    "Verde"
+                ]
+            }
+        ],
+        "images": [
+            {
+                "id": 5,
+                "product_id": 4,
+                "position": 1,
+                "created_at": "2023-10-07T14:15:22-05:00",
+                "updated_at": "2023-10-14T14:15:22-05:00",
+                "alt": "Mochila Ecológica - Negro",
+                "width": 512,
+                "height": 512,
+                "src": "http://ejemplo.com/imagenes/producto4/negro.jpg",
+                "variant_ids": [
+                    4001
+                ]
+            },
+            {
+                "id": 6,
+                "product_id": 4,
+                "position": 2,
+                "created_at": "2023-10-07T14:15:22-05:00",
+                "updated_at": "2023-10-14T14:15:22-05:00",
+                "alt": "Mochila Ecológica - Azul",
+                "width": 512,
+                "height": 512,
+                "src": "http://ejemplo.com/imagenes/producto4/azul.jpg",
+                "variant_ids": [
+                    4002
+                ]
+            }
+        ]
+    },
+    {
+        "id": 5,
+        "status": "active",
+        "title": "Reloj Solar",
+        "body_html": "<strong>Un reloj revolucionario que funciona con energía solar.</strong>",
+        "vendor": "EcoRelojes",
+        "product_type": "Accesorios",
+        "created_at": "2023-10-05T14:15:22-05:00",
+        "handle": "reloj-solar",
+        "updated_at": "2023-10-12T14:15:22-05:00",
+        "published_at": "2023-10-06T14:15:22-05:00",
+        "template_suffix": "",
+        "published_scope": "global",
+        "tags": "Ecológico, Reloj, Solar",
+        "variants": [
+            {
+                "id": 5001,
+                "product_id": 5,
+                "title": "Negro",
+                "price": [
+                    {
+                        "amount": "250.00",
+                        "currency_code": "USD"
+                    },
+                    {
+                        "amount": "1000000.00",
+                        "currency_code": "COP"
+                    }
+                ],
+                "sku": "SOLAR-WATCH-BLACK",
+                "position": 1,
+                "inventory_policy": "deny",
+                "compare_at_price": "",
+                "fulfillment_service": "manual",
+                "inventory_management": "shopify",
+                "option": {
+                    "option1": "Negro",
+                    "option2": "",
+                    "option3": "null"
+                },
+                "created_at": "2023-10-05T14:15:22-05:00",
+                "updated_at": "2023-10-12T14:15:22-05:00",
+                "taxable": true,
+                "barcode": "1234567890501",
+                "grams": 200,
+                "image_id": 10,
+                "weight": 0.2,
+                "weight_unit": "kg",
+                "inventory_item_id": 50001,
+                "inventory_quantity": 15,
+                "old_inventory_quantity": 15,
+                "requires_shipping": true
+            }
+        ],
+        "options": [
+            {
+                "id": 9,
+                "product_id": 5,
+                "name": "Color",
+                "position": 1,
+                "values": [
+                    "Negro",
+                    "Blanco"
+                ]
+            }
+        ],
+        "images": [
+            {
+                "id": 7,
+                "product_id": 5,
+                "position": 1,
+                "created_at": "2023-10-05T14:15:22-05:00",
+                "updated_at": "2023-10-12T14:15:22-05:00",
+                "alt": "Reloj Solar - Negro",
+                "width": 512,
+                "height": 512,
+                "src": "http://ejemplo.com/imagenes/producto5/negro.jpg",
+                "variant_ids": [
+                    5001
+                ]
+            }
+        ]
+    },
+    {
+        "id": 6,
+        "status": "active",
+        "title": "Cuaderno Reciclado",
+        "body_html": "<strong>Perfecto para tus notas diarias. ¡100% material reciclado!</strong>",
+        "vendor": "EcoEscritura",
+        "product_type": "Papelería",
+        "created_at": "2023-10-03T14:15:22-05:00",
+        "handle": "cuaderno-reciclado",
+        "updated_at": "2023-10-10T14:15:22-05:00",
+        "published_at": "2023-10-04T14:15:22-05:00",
+        "template_suffix": "",
+        "published_scope": "global",
+        "tags": "Ecológico, Cuaderno, Reciclado",
+        "variants": [
+            {
+                "id": 6001,
+                "product_id": 6,
+                "title": "100 hojas - Tapa azul",
+                "price": [
+                    {
+                        "amount": "9.00",
+                        "currency_code": "USD"
+                    },
+                    {
+                        "amount": "36000.00",
+                        "currency_code": "COP"
+                    }
+                ],
+                "sku": "RECYC-NOTEBOOK-BLUE",
+                "position": 1,
+                "inventory_policy": "deny",
+                "compare_at_price": "",
+                "fulfillment_service": "manual",
+                "inventory_management": "shopify",
+                "option": {
+                    "option1": "100 hojas",
+                    "option2": "Tapa azul",
+                    "option3": "null"
+                },
+                "created_at": "2023-10-03T14:15:22-05:00",
+                "updated_at": "2023-10-10T14:15:22-05:00",
+                "taxable": true,
+                "barcode": "1234567890601",
+                "grams": 250,
+                "image_id": 10,
+                "weight": 0.25,
+                "weight_unit": "kg",
+                "inventory_item_id": 60001,
+                "inventory_quantity": 35,
+                "old_inventory_quantity": 35,
+                "requires_shipping": true
+            }
+        ],
+        "options": [
+            {
+                "id": 10,
+                "product_id": 6,
+                "name": "Número de hojas",
+                "position": 1,
+                "values": [
+                    "100 hojas",
+                    "200 hojas"
+                ]
+            },
+            {
+                "id": 11,
+                "product_id": 6,
+                "name": "Color de tapa",
+                "position": 2,
+                "values": [
+                    "Tapa azul",
+                    "Tapa verde",
+                    "Tapa roja"
+                ]
+            }
+        ],
+        "images": [
+            {
+                "id": 8,
+                "product_id": 6,
+                "position": 1,
+                "created_at": "2023-10-03T14:15:22-05:00",
+                "updated_at": "2023-10-10T14:15:22-05:00",
+                "alt": "Cuaderno Reciclado - Tapa azul",
+                "width": 512,
+                "height": 512,
+                "src": "http://ejemplo.com/imagenes/producto6/azul.jpg",
+                "variant_ids": [
+                    6001
+                ]
+            }
+        ]
+    },
+    {
+        "id": 7,
+        "status": "active",
+        "title": "Botella de Agua Reutilizable",
+        "body_html": "<strong>Conserva tu hidratación con estilo, reutiliza y cuida el planeta.</strong>",
+        "vendor": "EcoAmigable",
+        "product_type": "Accesorios",
+        "created_at": "2023-10-07T14:15:22-05:00",
+        "handle": "botella-reutilizable",
+        "updated_at": "2023-10-14T14:15:22-05:00",
+        "published_at": "2023-10-08T14:15:22-05:00",
+        "template_suffix": "",
+        "published_scope": "global",
+        "tags": "Ecológico, Botella, Reutilizable",
+        "variants": [
+            {
+                "id": 7001,
+                "product_id": 7,
+                "title": "750ml - Azul",
+                "price": [
+                    {
+                        "amount": "14.99",
+                        "currency_code": "USD"
+                    },
+                    {
+                        "amount": "59960.00",
+                        "currency_code": "COP"
+                    }
+                ],
+                "sku": "REUSABLE-BOTTLE-BLUE",
+                "position": 1,
+                "inventory_policy": "deny",
+                "compare_at_price": "",
+                "fulfillment_service": "manual",
+                "inventory_management": "shopify",
+                "option": {
+                    "option1": "750ml",
+                    "option2": "Azul",
+                    "option3": "null"
+                },
+                "created_at": "2023-10-07T14:15:22-05:00",
+                "updated_at": "2023-10-14T14:15:22-05:00",
+                "taxable": true,
+                "barcode": "1234567890701",
+                "grams": 200,
+                "image_id": 10,
+                "weight": 0.2,
+                "weight_unit": "kg",
+                "inventory_item_id": 70001,
+                "inventory_quantity": 25,
+                "old_inventory_quantity": 25,
+                "requires_shipping": true
+            }
+        ],
+        "options": [
+            {
+                "id": 13,
+                "product_id": 7,
+                "name": "Capacidad",
+                "position": 1,
+                "values": [
+                    "750ml",
+                    "500ml"
+                ]
+            },
+            {
+                "id": 14,
+                "product_id": 7,
+                "name": "Color",
+                "position": 2,
+                "values": [
+                    "Azul",
+                    "Verde",
+                    "Rojo"
+                ]
+            }
+        ],
+        "images": [
+            {
+                "id": 9,
+                "product_id": 7,
+                "position": 1,
+                "created_at": "2023-10-07T14:15:22-05:00",
+                "updated_at": "2023-10-14T14:15:22-05:00",
+                "alt": "Botella de Agua Reutilizable - Azul",
+                "width": 512,
+                "height": 512,
+                "src": "http://ejemplo.com/imagenes/producto7/azul.jpg",
+                "variant_ids": [
+                    7001
+                ]
+            }
+        ]
+    },
+    {
+        "id": 8,
+        "status": "active",
+        "title": "Mochila de Materiales Reciclados",
+        "body_html": "<strong>Perfecta para viajeros, hecha totalmente con materiales reciclados.</strong>",
+        "vendor": "EcoMochilas",
+        "product_type": "Accesorios",
+        "created_at": "2023-10-09T14:15:22-05:00",
+        "handle": "mochila-reciclada",
+        "updated_at": "2023-10-16T14:15:22-05:00",
+        "published_at": "2023-10-10T14:15:22-05:00",
+        "template_suffix": "",
+        "published_scope": "global",
+        "tags": "Ecológico, Mochila, Reciclado",
+        "variants": [
+            {
+                "id": 8001,
+                "product_id": 8,
+                "title": "20 Litros - Gris",
+                "price": [
+                    {
+                        "amount": "79.99",
+                        "currency_code": "USD"
+                    },
+                    {
+                        "amount": "319960.00",
+                        "currency_code": "COP"
+                    }
+                ],
+                "sku": "RECYCLED-BACKPACK-GRAY",
+                "position": 1,
+                "inventory_policy": "deny",
+                "compare_at_price": "",
+                "fulfillment_service": "manual",
+                "inventory_management": "shopify",
+                "option": {
+                    "option1": "20 Litros",
+                    "option2": "Gris",
+                    "option3": "null"
+                },
+                "created_at": "2023-10-09T14:15:22-05:00",
+                "updated_at": "2023-10-16T14:15:22-05:00",
+                "taxable": true,
+                "barcode": "1234567890801",
+                "grams": 800,
+                "image_id": 10,
+                "weight": 0.8,
+                "weight_unit": "kg",
+                "inventory_item_id": 80001,
+                "inventory_quantity": 10,
+                "old_inventory_quantity": 10,
+                "requires_shipping": true
+            }
+        ],
+        "options": [
+            {
+                "id": 15,
+                "product_id": 8,
+                "name": "Capacidad",
+                "position": 1,
+                "values": [
+                    "20 Litros",
+                    "15 Litros"
+                ]
+            },
+            {
+                "id": 16,
+                "product_id": 8,
+                "name": "Color",
+                "position": 2,
+                "values": [
+                    "Gris",
+                    "Negro"
+                ]
+            }
+        ],
+        "images": [
+            {
+                "id": 10,
+                "product_id": 8,
+                "position": 1,
+                "created_at": "2023-10-09T14:15:22-05:00",
+                "updated_at": "2023-10-16T14:15:22-05:00",
+                "alt": "Mochila de Materiales Reciclados - Gris",
+                "width": 512,
+                "height": 512,
+                "src": "http://ejemplo.com/imagenes/producto8/gris.jpg",
+                "variant_ids": [
+                    8001
+                ]
+            }
+        ]
+    },
+    {
+        "id": 9,
+        "status": "active",
+        "title": "Reloj de Bambú Ecológico",
+        "body_html": "<strong>Un accesorio sofisticado y ecológico. Hecho 100% de bambú sostenible.</strong>",
+        "vendor": "EcoRelojes",
+        "product_type": "Accesorios",
+        "created_at": "2023-10-10T14:15:22-05:00",
+        "handle": "reloj-bambu",
+        "updated_at": "2023-10-17T14:15:22-05:00",
+        "published_at": "2023-10-11T14:15:22-05:00",
+        "template_suffix": "",
+        "published_scope": "global",
+        "tags": "Ecológico, Reloj, Bambú, Moda",
+        "variants": [
+            {
+                "id": 9001,
+                "product_id": 9,
+                "title": "Estándar - Correa Marrón",
+                "price": [
+                    {
+                        "amount": "65.00",
+                        "currency_code": "USD"
+                    },
+                    {
+                        "amount": "260000.00",
+                        "currency_code": "COP"
+                    }
+                ]
+                ,
+                "sku": "BAMBOO-WATCH-BROWN",
+                "position": 1,
+                "inventory_policy": "deny",
+                "compare_at_price": "",
+                "fulfillment_service": "manual",
+                "inventory_management": "shopify",
+                "option": {
+                    "option1": "Estándar",
+                    "option2": "Correa Marrón",
+                    "option3": "null"
+                },
+                "created_at": "2023-10-10T14:15:22-05:00",
+                "updated_at": "2023-10-17T14:15:22-05:00",
+                "taxable": true,
+                "barcode": "1234567890901",
+                "grams": 150,
+                "image_id": 10,
+                "weight": 0.15,
+                "weight_unit": "kg",
+                "inventory_item_id": 90001,
+                "inventory_quantity": 34,
+                "old_inventory_quantity": 34,
+                "requires_shipping": true
+            }
+        ],
+        "options": [
+            {
+                "id": 17,
+                "product_id": 9,
+                "name": "Tamaño",
+                "position": 1,
+                "values": [
+                    "Estándar"
+                ]
+            },
+            {
+                "id": 18,
+                "product_id": 9,
+                "name": "Color de Correa",
+                "position": 2,
+                "values": [
+                    "Correa Marrón",
+                    "Correa Negra"
+                ]
+            }
+        ],
+        "images": [
+            {
+                "id": 11,
+                "product_id": 9,
+                "position": 1,
+                "created_at": "2023-10-10T14:15:22-05:00",
+                "updated_at": "2023-10-17T14:15:22-05:00",
+                "alt": "Reloj de Bambú Ecológico - Correa Marrón",
+                "width": 512,
+                "height": 512,
+                "src": "http://ejemplo.com/imagenes/producto9/marron.jpg",
+                "variant_ids": [
+                    9001
+                ]
+            }
+        ]
+    },
+    {
+        "id": 10,
+        "status": "active",
+        "title": "Cuaderno Reciclado Multifunción",
+        "body_html": "<strong>Ideal para cualquier tarea, este cuaderno utiliza papel 100% reciclado y ofrece versatilidad y estilo.</strong>",
+        "vendor": "EcoPapel",
+        "product_type": "Oficina",
+        "created_at": "2023-10-12T14:15:22-05:00",
+        "handle": "cuaderno-reciclado",
+        "updated_at": "2023-10-19T14:15:22-05:00",
+        "published_at": "2023-10-13T14:15:22-05:00",
+        "template_suffix": "",
+        "published_scope": "global",
+        "tags": "Ecológico, Cuaderno, Reciclado, Oficina",
+        "variants": [
+            {
+                "id": 10001,
+                "product_id": 10,
+                "title": "200 Páginas - Tapa Azul",
+                "price": [
+                    {
+                        "amount": "8.99",
+                        "currency_code": "USD"
+                    },
+                    {
+                        "amount": "35960.00",
+                        "currency_code": "COP"
+                    }
+                ]
+                ,
+                "sku": "RECYCLED-NOTEBOOK-BLUE",
+                "position": 1,
+                "inventory_policy": "deny",
+                "compare_at_price": "",
+                "fulfillment_service": "manual",
+                "inventory_management": "shopify",
+                "option": {
+                    "option1": "200 Páginas",
+                    "option2": "Tapa Azul",
+                    "option3": "null"
+                },
+                "created_at": "2023-10-12T14:15:22-05:00",
+                "updated_at": "2023-10-19T14:15:22-05:00",
+                "taxable": true,
+                "barcode": "1234567890911",
+                "grams": 350,
+                "image_id": 10,
+                "weight": 0.35,
+                "weight_unit": "kg",
+                "inventory_item_id": 100001,
+                "inventory_quantity": 58,
+                "old_inventory_quantity": 58,
+                "requires_shipping": true
+            }
+        ],
+        "options": [
+            {
+                "id": 19,
+                "product_id": 10,
+                "name": "Número de Páginas",
+                "position": 1,
+                "values": [
+                    "200 Páginas"
+                ]
+            },
+            {
+                "id": 20,
+                "product_id": 10,
+                "name": "Color de Tapa",
+                "position": 2,
+                "values": [
+                    "Tapa Azul",
+                    "Tapa Roja",
+                    "Tapa Verde"
+                ]
+            }
+        ],
+        "images": [
+            {
+                "id": 12,
+                "product_id": 10,
+                "position": 1,
+                "created_at": "2023-10-12T14:15:22-05:00",
+                "updated_at": "2023-10-19T14:15:22-05:00",
+                "alt": "Cuaderno Reciclado Multifunción - Tapa Azul",
+                "width": 512,
+                "height": 512,
+                "src": "http://ejemplo.com/imagenes/producto10/azul.jpg",
+                "variant_ids": [
+                    10001
+                ]
+            }
+        ]
+    }
+]
